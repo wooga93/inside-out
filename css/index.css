@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+*		{margin:0;padding:0;box-sizing:border-box;}
+html	{scroll-behavior:smooth;}
+html,body{font:15pt 'Nanum Pen Script'; height:100%;}
+img		{display:block;max-width:100%;}
+header 	{margin:auto;width:100%;display:flex; position:fixed;}
+h1		{flex:1;margin:15pt 0 0 40pt;}
+nav{flex:7;display:flex;font:18pt 'Sunflower', sans-serif;font-weight:bold;}
+nav a{flex:1;text-decoration:none;color:white;justify-content:space-between;text-align:left; padding-top:40px;}
+
+main{width:100vw;}
+main section{height:100vh;background-size:cover; background-position:center; background-attachment:fixed;overflow:hidden;padding-top:200pt; font-size:1.5rem;}
+main h2{display:none;}
+#b1 div:first-child,#b2 div{text-align:center;padding-top:110px;color:white;font:30pt 'Josefin Sans', sans-serif;line-height:65px;}
+#b1 div:last-child{text-align:center;padding-top:180px;color:#fff;font:20pt 'Oswald', sans-serif;}
+#b1 b:first-child{color:#34c978;font-weight:normal;}
+#b1 b:last-child{color:#efc302;font-weight:normal;}
+#b2 b{color:#2183b4;font-weight:normal;}
+span{font-weight:bold;}
+
+#b1{background-image:url("../images/main1.jpg");}	
+#b2{background-image:url("../images/main2.jpg");}	
+
